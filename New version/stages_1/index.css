@@ -1,0 +1,105 @@
+body {
+    background-color: #D0CEE2;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #D0CEE2;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+.background-question {
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 1%;
+    height: 8%;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes côte à côte */
+    grid-template-rows: repeat(2, auto); /* Deux rangées côte à côte */
+    gap: 10px; /* Marge entre les éléments (ajuste selon tes préférences) */
+}
+
+.maClasseGrid img {
+    width: 100%; /* Pour que les images occupent toute la largeur du conteneur */
+    height: 100%; /* Pour maintenir les proportions originales de l'image */
+}
+
+.image-A_div {
+    width: 50%;
+    height: 75%;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.image-B_div {
+    width: 50%;
+    height: 75%;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.image-C_div {
+    width: 50%;
+    height: 75%;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.image-D_div {
+    width: 50%;
+    height: 75%;
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.line-response {
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.container-button {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes côte à côte */
+    grid-template-rows: repeat(2, auto); /* Deux rangées côte à côte */
+    gap: 100px; /* Marge entre les éléments (ajuste selon tes préférences) */
+}
+
+.container-button button {
+    width: 10%; /* Pour que les images occupent toute la largeur du conteneur */
+    height: 100%; /* Pour maintenir les proportions originales de l'image */
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.17em;
+    margin-top: 5%;
+}
