@@ -1,0 +1,88 @@
+.background {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+.background-title {
+    width: 80%;
+    height: 60%;
+    background-color: rgb(78, 207, 207);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    border-radius: 50px;
+    margin-bottom: 80%;
+    border: 1px solid black;
+}
+
+.title-belt {
+    width: 50%;
+    height: 15%;
+    background-color: white;
+    border: 1px     solid black;
+    text-align: center; 
+    margin-left: 25%;
+    margin-top: 8%;
+    margin-right: 25%;
+    margin-bottom: 20%;
+}
+
+.background-first_challenge {
+    margin-top: 25%;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 200px;
+    background-color: #CF9FFF;
+    border: 1px solid black;
+
+}
+
+.background-seconde_challenge {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 200px;
+    background-color: #FAD7AC;
+    margin-top: 5%;
+    border: 1px solid black;
+
+}
+
+.background-third_challenge {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    height: 200px;
+    background-color: #EA6B66;
+    margin-top: 5%;
+    border: 1px solid black;
+}
+
+
+.title-lvl_one {
+    background-color: white;
+    width: 30%;
+    height: 15%;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.play-button {
+    height: 15%;
+    width: 25%;
+    background: white;
+    margin-top: 10%;
+    margin-left: 38%;
+}
+
+h1 {
+    font-size: 34px;
+}
+
